@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589376583 source:c:\users\sabrina\desktop\parcial\main.c
+1589381733 source:c:\users\sabrina\desktop\parcial\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

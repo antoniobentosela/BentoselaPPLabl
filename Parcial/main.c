@@ -90,20 +90,19 @@ int main()
 
     char seguir = 's';
     char confirma;
-    int proximoId = 1000;
-    int proximoIdTrabajo = 20000;
+    int proximoId = 100;
+    int proximoIdTrabajo = 30000;
     eBicicleta lista[TAM];
-    eTipo tipos[TAMTIP] = {{1, "Rutera"}, {2, "Carrera"},{3, "Mountain"},{4, "BMX"}};
-    eColor colores[TAMCOL] = {{10, "Gris"}, {11, "Negro"},{12, "Blanco"},{13, "Azul"},{14, "Rojo"}};
+    eTipo tipos[TAMTIP] = {{1000, "Rutera"}, {1001, "Carrera"},{1002, "Mountain"},{1003, "BMX"}};
+    eColor colores[TAMCOL] = {{5000, "Gris"}, {5001, "Negro"},{5002, "Blanco"},{5003, "Azul"},{5004, "Rojo"}};
     eTrabajo trabajos[TAMTRA];
-    eServicio servicios[TAMSERV] = {{100, "Limpieza", 250}, {102, "Parche", 300}, {103, "Centrado", 400}, {104, "Cadena", 350}};
+    eServicio servicios[TAMSERV] = {{20000, "Limpieza", 250}, {20001, "Parche", 300}, {20002, "Centrado", 400}, {20003, "Cadena", 350}};
 
 
     inicializarBicicletas(lista, TAM);
     inicializarTrabajos(trabajos, TAMTRA);
 
-    //harcodearBicicletas(lista, 7);
-    proximoId += 7;
+
 
     do
     {
